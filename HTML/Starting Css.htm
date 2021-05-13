@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Determination</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: lightblue;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: pink;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Hello!</h2>
+</header>
+
+<section>
+  <nav>
+  <img src="https://scontent-yyz1-1.xx.fbcdn.net/v/t1.6435-9/178343571_3719467201495361_3939036074400110872_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=Dswq0Sj_7uAAX-5xkD1&_nc_ht=scontent-yyz1-1.xx&oh=f67a7d115158ba52769831702479d232&oe=60ACF269" alt="nothing" class="center" width="100" height="200">
+  </nav>
+  
+  <article>
+    <h1>Determination</h1>
+    <p>I copy and pasted most of this coding from w3schools.com and made some changes. </p>
+    <p>It will be a while before I can type this all out.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Keep it up</p>
+</footer>
+
+</body>
+</html>
+
