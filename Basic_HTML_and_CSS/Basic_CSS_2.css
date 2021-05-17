@@ -1,0 +1,14 @@
+P {
+	color: red;
+	background: black;
+	font-size: 150%;
+	text-align: center;
+  }
+h1 {
+	color: black;
+	background: white;
+	font-size: 300%;
+	text-align: center;
+	text-shadow: 10px 10px 10px #FF0000;
+}
+  
