@@ -168,11 +168,30 @@ ul a {
     text-align: center;
 }
 
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   }
 
+.video-container {
+    position: relative;
+    text-align: center;
+    color: black;
+    top:5em;
+}
 
+.video-text {
+    position: absolute;
+    top:10%;
+    left: 35%;
+    font-size: medium;
+}
 
- 
-
-
-
+@media screen and (max-width: 600px) {
+    html{ 
+        background-color: yellow;
+    }
+}
     
