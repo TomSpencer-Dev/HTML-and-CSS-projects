@@ -45,8 +45,8 @@ th  {
     top: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
-    height: 22em; 
+    width: 300px;
+    height: 100%; 
     filter: grayscale(100);
     border-radius:25px;
   }
@@ -57,6 +57,8 @@ th  {
     text-align: center;
     color: black;
     top: 5em;
+    margin: 0px auto;
+    width: 200px;
 }
 
 .text {
@@ -145,8 +147,9 @@ ul a {
     bottom:0;
     left:0;
     right: 0;
+    /* SET OVERLAY TO SAME HEIGHT*/
     height: 100%;
-    width: 100%;
+    width: 300px;
     opacity: 0;
     transition: .5s ease;
     background-color: lightgray;
