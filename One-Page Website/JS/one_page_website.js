@@ -36,3 +36,4 @@ function showSlides(n) {
     captionText.innerHTML = dots[slideIndex-1].alt;
 
 }
+<a class="next" onclick="plusSLides(1)">&#10095;</a>
