@@ -166,6 +166,9 @@ img.demo {
 img.hover-shadow {
     transition: 0.3s;
     cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hover-shadow:hover {
@@ -175,12 +178,6 @@ img.hover-shadow {
 .column1 {
     float: left;
     width: 33.33%;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 form {
